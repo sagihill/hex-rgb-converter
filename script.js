@@ -48,8 +48,3 @@ function convertRGBToHex(rgbArray){
 	}
 	return hexString;
 }
-
-const newRGBColor = [255,53,34];
-
-convertRGBToHex(newRGBColor);
-var body = doc
