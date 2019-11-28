@@ -20,7 +20,7 @@ function convertHexToRGB(hexString){
 		rgbArray.push(numToArray);
 		numToArray = 0
 	}
-	console.log(rgbArray) ; 
+	return rgbArray ; 
 }
 
 function convertRGBToHex(rgbArray){
@@ -46,5 +46,5 @@ function convertRGBToHex(rgbArray){
 			hexString+=String.fromCharCode(num2+55);
 		}
 	}
-	console.log(hexString);
+	return hexString;
 }
